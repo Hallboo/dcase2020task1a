@@ -1,0 +1,14 @@
+{
+    "name": "asc",
+    "sample_rate": 44100,
+    "two_channel": false,
+    "num_mels": 128,
+    "n_fft": 1764,
+    "hop_length": 882,
+    "win_length": 1764,
+    "deltas": true,
+
+    "model_type":"Cnn_9layers_AvgPooling",
+    "max_epoch": 100,
+    "batch_size": 64
+}
